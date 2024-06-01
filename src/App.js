@@ -1,14 +1,8 @@
 import React from 'react';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Dashboard from './components/Dashboard';
 import data from './eve.json'
 
 
-const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
-  },
-});
 
 
 
